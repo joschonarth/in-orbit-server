@@ -29,6 +29,13 @@
       "when": 1772069492697,
       "tag": "0003_dear_tigra",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1772232617356,
+      "tag": "0004_curved_azazel",
+      "breakpoints": true
     }
   ]
 }
