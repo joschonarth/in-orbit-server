@@ -1,3 +1,5 @@
+import { writeFile } from 'node:fs/promises'
+import { resolve } from 'node:path'
 import { fastifyCors } from '@fastify/cors'
 import fastifyJwt from '@fastify/jwt'
 import { fastifySwagger } from '@fastify/swagger'
@@ -10,7 +12,7 @@ import {
   type ZodTypeProvider,
 } from 'fastify-type-provider-zod'
 import { env } from '../env'
-import { authenticateFromGithubRoute } from './routes/authenticate-from-github'
+import { authenticateFromGitHubRoute } from './routes/authenticate-from-github'
 import { createCompletionRoute } from './routes/create-completion'
 import { createGoalRoute } from './routes/create-goal'
 import { getPendingGoalsRoute } from './routes/get-pending-goals'
@@ -49,7 +51,7 @@ app.register(createGoalRoute)
 app.register(createCompletionRoute)
 app.register(getPendingGoalsRoute)
 app.register(getWeekSummaryRoute)
-app.register(authenticateFromGithubRoute)
+app.register(authenticateFromGitHubRoute)
 app.register(getProfileRoute)
 app.register(getUserExperienceAndLevelRoute)
 
@@ -60,3 +62,15 @@ app
   .then(() => {
     console.log('HTTP server running!')
   })
+
+if (env.NODE_ENV === 'development') {
+  const specFile = resolve(__dirname, '../../swagger.json')
+
+  app.ready().then(() => {
+    const spec = JSON.stringify(app.swagger(), null, 2)
+
+    writeFile(specFile, spec).then(() => {
+      console.log('Swagger spec generated!')
+    })
+  })
+}
