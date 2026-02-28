@@ -376,6 +376,76 @@
           }
         }
       }
+    },
+    "/goals/{goalId}": {
+      "delete": {
+        "operationId": "deleteGoal",
+        "tags": [
+          "goals"
+        ],
+        "description": "Delete a goal",
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "goalId",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string",
+                  "nullable": true,
+                  "enum": [
+                    null
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/completions/{goalCompletionId}": {
+      "delete": {
+        "operationId": "deleteCompletion",
+        "tags": [
+          "goals"
+        ],
+        "description": "Delete a goal completion",
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "goalCompletionId",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string",
+                  "nullable": true,
+                  "enum": [
+                    null
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
