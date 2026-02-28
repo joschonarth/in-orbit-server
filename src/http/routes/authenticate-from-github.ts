@@ -2,13 +2,14 @@ import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod'
 import { z } from 'zod'
 import { authenticateFromGitHubCode } from '../../functions/authenticate-from-github-code'
 
-export const authenticateFromGithubRoute: FastifyPluginAsyncZod = async app => {
+export const authenticateFromGitHubRoute: FastifyPluginAsyncZod = async app => {
   app.post(
     '/auth/github',
     {
       schema: {
         tags: ['auth'],
         description: 'Authenticate user from GitHub code',
+        operationId: 'authenticateFromGitHub',
         body: z.object({
           code: z.string(),
         }),
