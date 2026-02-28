@@ -53,7 +53,7 @@ describe('authenticate from github code', () => {
       id: existing.externalAccountId,
       name: 'John Doe',
       email: null,
-      avatar_url: 'https://github.com/diego3g.png',
+      avatar_url: 'https://github.com/joschonarth.png',
     })
 
     const sut = await authenticateFromGitHubCode({
