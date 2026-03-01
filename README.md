@@ -6,10 +6,10 @@
 
 *Registre metas, acompanhe seu progresso e evolua semana a semana.*
 
-<img src="https://img.shields.io/github/last-commit/joschonarth/in-orbit-server?style=for-the-badge&logo=git&logoColor=white&color=8b5cf6&labelColor=27272a" alt="last-commit">
-<img src="https://img.shields.io/github/languages/top/joschonarth/in-orbit-server?style=for-the-badge&color=F67986&labelColor=27272a" alt="repo-top-language">
-<img src="https://img.shields.io/github/languages/count/joschonarth/in-orbit-server?style=for-the-badge&color=8b5cf6&labelColor=27272a" alt="repo-language-count">
-<img src="https://img.shields.io/github/actions/workflow/status/joschonarth/in-orbit-server/ci.yml?style=for-the-badge&color=F67986&labelColor=27272a" alt="ci-tests">
+<img src="https://img.shields.io/github/last-commit/joschonarth/in-orbit-server?style=default&logo=git&logoColor=white&color=8b5cf6&labelColor=27272a" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/joschonarth/in-orbit-server?style=default&color=F67986&labelColor=27272a" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/joschonarth/in-orbit-server?style=default&color=8b5cf6&labelColor=27272a" alt="repo-language-count">
+<img src="https://img.shields.io/github/actions/workflow/status/joschonarth/in-orbit-server/ci.yml?style=default&color=F67986&labelColor=27272a" alt="ci-tests">
 
 ---
 
