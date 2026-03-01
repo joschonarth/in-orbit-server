@@ -14,10 +14,10 @@
 ---
 
 📃 [Sobre](#-sobre)&nbsp;&nbsp;•&nbsp;&nbsp;
-🛠️ [Tecnologias](#-tecnologias)&nbsp;&nbsp;•&nbsp;&nbsp;
+🛠️ [Tecnologias](%EF%B8%8F-tecnologias)&nbsp;&nbsp;•&nbsp;&nbsp;
 ✨ [Funcionalidades](#-funcionalidades)&nbsp;&nbsp;•&nbsp;&nbsp;
 🚀 [Como rodar](#-como-rodar)&nbsp;&nbsp;•&nbsp;&nbsp;
-📖 [Documentação](#-documentacao-da-api)&nbsp;&nbsp;•&nbsp;&nbsp;
+📖 [Documentação](#-documentação-da-api)&nbsp;&nbsp;•&nbsp;&nbsp;
 🧪 [Testes](#-testes)
 
 </div>
