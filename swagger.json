@@ -164,7 +164,7 @@
         "parameters": [
           {
             "schema": {
-              "default": "2026-02-22T03:00:00.000Z"
+              "default": "2026-03-01T03:00:00.000Z"
             },
             "in": "query",
             "name": "weekStartsAt",
