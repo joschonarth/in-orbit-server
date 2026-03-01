@@ -27,7 +27,7 @@
 ## 📃 Sobre
 
 O **in.orbit** é uma aplicação web para criação e acompanhamento de metas com foco semanal, e este repositório contém a **API REST** que a alimenta. Por meio dela é possível criar metas com frequência personalizada, marcar e desmarcar conclusões, acompanhar o progresso semanal e navegar por semanas anteriores através de um relatório detalhado. A API também gerencia a autenticação via GitHub e o sistema de gamificação com XP e níveis. O backend é construído com **Fastify**, **Drizzle ORM** e **PostgreSQL**.
-
+ 
 ---
 
 ## 🛠️ Tecnologias
@@ -117,7 +117,7 @@ docker compose up -d
 Execute as migrations para criar as tabelas:
 
 ```bash
-npm drizzle-kit migrate
+npx drizzle-kit migrate
 ```
 
 Opcionalmente, popule o banco com dados de seed:
