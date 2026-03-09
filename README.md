@@ -2,7 +2,7 @@
 
 <img height="160" alt="in.orbit" src="https://raw.githubusercontent.com/joschonarth/in-orbit-web/main/public/icon.svg" />
 
-# in.orbit API
+# 🧑‍🚀 in.orbit API
 
 *Registre metas, acompanhe seu progresso e evolua semana a semana.*
 
