@@ -152,13 +152,13 @@ Os testes são escritos com **Vitest** e cobrem os principais fluxos e regras de
 
 ```bash
 # Roda todos os testes
-npm test
+npm run test
 
-# Roda os testes com watch mode
-npm test:watch
+# Roda os testes em modo watch
+npm run test:watch
 
-# Exibe o relatório de cobertura
-npm test:coverage
+# Executa apenas as migrations no banco de teste
+npm run db:migrate:test
 ```
 
 ---
